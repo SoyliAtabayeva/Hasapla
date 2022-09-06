@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     context.read<MainProvider>().readActivities();
-    super.initState();
+    super.initState(); //bl
   }
 
   @override
